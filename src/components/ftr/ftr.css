@@ -1,0 +1,78 @@
+#ftr{
+    background-color:#01222f;
+    padding: 80px 0 20px 0;
+}
+.ft{
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+}
+.footer-text{
+    display: flex;
+    gap: 20px;
+}
+.footer-text img{
+    width: 100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.footer-text p{
+    color: gray;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.footer-icon{
+    display: flex;
+    gap: 20px;
+}
+.icons{
+    font-size: 30px;
+    color: white;
+}
+.ftr-btn{
+    padding: 20px 0 0 20px;
+}
+.down{
+    padding: 15px 20px;
+    color: yellow;
+    border: 2px solid #fcb900;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-right: 20px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.down:hover{
+    background-color: #fcb900;
+    color: white;
+}
+.hiree{
+    padding: 15px 25px;
+    color: yellow;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: 2px solid #fcb900;
+    border-radius: 5px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.hiree:hover{
+    background-color: #fcb900;
+    color: #fff;
+}
