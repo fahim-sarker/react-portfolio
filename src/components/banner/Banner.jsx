@@ -18,7 +18,6 @@ const Banner = () => {
           <Col lg={6}>
             <div className="ban-text">
               <h2>i'm! fahim sarker</h2>
-              <h3 className='type'></h3>
             <TypeAnimation
       sequence={[
         'i am- a front-end developer',
@@ -26,9 +25,9 @@ const Banner = () => {
         'i am- a react developer',
         1000,
       ]}
-      wrapper="type"
+      wrapper="typing"
       speed={200}
-      style={{ fontSize: '40px',color: 'yellow', display: 'inline-block', paddingBottom: '30px' }}
+      style={{ fontSize: '40px',color: 'navy', display: 'inline-block', paddingBottom: '30px' }}
       repeat={Infinity}
     />
               <p>Lorem ipsum dolor sit amet consectetur. pulvinar sapien duis sapien aliquam dictumst justo nunc. faucibus quis aenean molestie vel lacus cursus egestas senectus nisl.</p>

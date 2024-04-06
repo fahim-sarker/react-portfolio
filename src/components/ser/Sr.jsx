@@ -14,7 +14,9 @@ const Sr = () => {
                             <h2>my services</h2>
                             <p>Lorem ipsum dolor sit amet consectetur. Iaculis sit eget sed eget quam auctor sed. Tempor eget consequat congue.
                             </p>
-                            <a className='sr-btn' href="#">view all services <MdOutlineArrowOutward /></a>
+                           <div className="sr-btn">
+                           <a href="#">view all services <MdOutlineArrowOutward /></a>
+                           </div>
                         </div>
                     </Col>
                     <Col lg={{ span: 8, offset: 1 }}>

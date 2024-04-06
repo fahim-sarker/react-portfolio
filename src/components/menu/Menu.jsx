@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import ScrollToTop from "react-scroll-to-top";
+import { Link } from 'react-router-dom';
 
 
 
@@ -29,15 +30,15 @@ const Menu = () => {
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#action1">Home</Nav.Link>
-                  <Nav.Link href="#action2">about</Nav.Link>
-                  <Nav.Link href="#action2">service</Nav.Link>
-                  <Nav.Link href="#action2">works</Nav.Link>
-                  <Nav.Link href="#action2">blog</Nav.Link>
+                <Nav className="justify-content-end flex-grow-1 pe-3 menu">
+                  <Link to="/">home</Link>
+                  <Link to="/About">about</Link>
+                  <Link to="/Service">service</Link>
+                  <Link to="/works">works</Link>
+                  <Link to="/">blog</Link>
                 </Nav>
                 <div className="nav-btn">
-                  <a className='ct' href="#">contact</a>
+                  <a className='ct' href="contact">contact</a>
                   </div>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

@@ -1,12 +1,27 @@
 import './App.css'
-import Banner from './components/banner/Banner'
-import Blog from './components/blog/Blog'
-import Cpr from './components/copyr/Cpr'
-import Ct from './components/ct/Ct'
-import Ftr from './components/ftr/Ftr'
-import Menu from './components/menu/Menu'
-import Resume from './components/resume/Resume'
-import Sr from './components/ser/Sr'
+import Home from "../src/pages/Home"
+import About from "../src/pages/About"
+import Service from "../src/pages/Service"
+import Works from "../src/pages/Works"
+import Contact from "../src/pages/Contact"
+import {
+  createBrowserRouter,createRoutesFromElements,Route,
+  RouterProvider,
+} from "react-router-dom";
+
+
+
+const router = createBrowserRouter(createRoutesFromElements(
+  <Route>
+    <Route path='/'element={<Home/>}></Route>
+    <Route path='/about'element={<About/>}></Route>
+    <Route path='/service'element={<Service/>}></Route>
+    <Route path='/Works'element={<Works/>}></Route>
+    <Route path='/contact'element={<Contact/>}></Route>
+  </Route>
+))
+
+
 
 
 function App() {
@@ -14,14 +29,7 @@ function App() {
 
   return (
     <>
-      <Menu/>
-      <Banner/>
-      <Resume/>
-      <Sr/>
-      <Blog/>
-      <Ct/>
-      <Ftr/>
-      <Cpr/>
+      <RouterProvider router={router}></RouterProvider>
     </>
   )
 }

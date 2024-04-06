@@ -1,23 +1,24 @@
 #resume{
-    background-color: #0b090a;
+    background: url(../../assets/bannerbg.png);
     padding-bottom: 100px;
+    padding-top: 50px;
 }
 .header h3{
     text-align: center;
     font-size: 40px;
-    color: #fff;
+    color: #000;
     text-transform: capitalize;
     font-family: "Poppins", sans-serif !important;
     font-weight: 500;
-    padding-bottom: 150px !important;
-    margin-top: 50px;
+    margin: 30px 0 100px 0;
+    
 }
 .icn{
-    color: yellow !important;
+    color: white !important;
     font-size: 30px !important;
     height: 50px !important;
     width: 50px !important;
-    background-color: #094752 !important;
+    background-color: navy !important;
     line-height: 40px;
     text-align: center;
     border: 1px solid white;
@@ -28,7 +29,7 @@
     -o-border-radius: 5px;
 }
 .bio h3{
-    color: #fff;
+    color: #000;
     width: 45% !important;
     font-family: "Poppins", sans-serif !important;
     font-size: 18px;
@@ -36,19 +37,19 @@
     padding: 15px 0 10px 0;
 }
 .bio p{
-    color: #fff;
+    color: #000;
     font-family: "Poppins", sans-serif !important;
     font-size: 16px !important;
 }
 .bio a{
-    color: yellow;
+    color: navy;
     text-transform: capitalize;
     font-size: 16px;
     font-family: "Poppins", sans-serif !important;
 }
 .btm{
     height: 2px;
-    background-color: white;
+    background-color: black;
     margin-top: 15px;
     margin-bottom: 20px;
 }
@@ -62,7 +63,7 @@
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
-    border: 10px solid #fcb900;
+    border: 10px solid navy;
 }
 .rsm-img img{
     width: 100%;
@@ -80,6 +81,7 @@
 }
 .rsm-btn a{
     padding: 20px 35px;
+    background-color: navy;
     color: #fff;
     font-size: 20px;
     font-family: "Poppins", sans-serif !important;
@@ -89,7 +91,7 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    border: 2px solid #fcb900;
+    border: 2px solid navy;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -97,11 +99,12 @@
     -o-transition: 0.5s;
 }
 .rsm-btn a:hover{
-    background-color: #fcb900;
+    color: #000;
+    background-color: #fff;
 }
 .tools h3{
     font-size: 30px;
-    color: #fff;
+    color: #000;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
     padding-top: 150px;
@@ -113,8 +116,8 @@
     margin-bottom: 30px;
 }
 .c1{
-    background-color: #094752;
-    border: 10px solid lightgoldenrodyellow;
+    background-color: aliceblue;
+    border: 10px solid navy;
     height: 120px;
     width: 120px;
     border-radius: 50%;
@@ -131,7 +134,7 @@
 }
 .skill h4{
     font-size: 30px;
-    color: #fff;
+    color: #000;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
     padding-top: 150px;
@@ -143,13 +146,13 @@
 }
 .left p{
     font-size: 20px;
-    color:#fff;
+    color:#000;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
 }
 .right p{
     font-size: 20px;
-    color:#fff;
+    color:#000;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
     margin-left: -90px !important;
@@ -157,7 +160,7 @@
 .line{
     height: 7px;
     width: 100%;
-    background-color: aliceblue;
+    background-color: red;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -173,7 +176,7 @@
     left: 0;
     height: 7px;
     width: 90%;
-    background-color: #fcb900;
+    background-color: navy;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -185,14 +188,14 @@
 }
 .journey h4{
     font-size: 30px;
-    color: #fff;
+    color: #000;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
     padding-bottom: 20px;
 }
 .journey p{
     font-size: 16px;
-    color:aliceblue;
+    color: #000;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
 }
@@ -201,7 +204,7 @@
 }
 .jr-btn a{
     padding: 20px 30px;
-    color: #fcb900;
+    color: #000;
     font-size: 20px;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
@@ -210,7 +213,7 @@
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    border: 2px solid #fcb900;
+    border: 2px solid #000;
     transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -218,26 +221,26 @@
     -o-transition: 0.5s;
 }
 .jr-btn a:hover{
-    background-color: #fcb900;
+    background-color: navy;
     color: #fff;
 }
 .company{
     margin-top: 100px;
-    border-right: 5px solid #fcb900;
+    border-right: 5px solid black;
 }
 .company-a{
     margin-bottom: 50px;
 }
 .company-a h4{
     font-size: 20px;
-    color: #fcb900;
+    color: #a4161a;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
     padding-bottom: 10px;
 }
 .company-a p{
     font-size: 16px;
-    color:aliceblue;
+    color: black;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
 }
@@ -249,20 +252,20 @@
 }
 .wrk-1 h3{
     font-size: 20px;
-    color: #fff;
+    color: red;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
     padding-bottom: 10px;
 }
 .wrk-1 p{
     font-size: 14px;
-    color:gainsboro;
+    color: black;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;  
 }
 .know{
     margin-top: 120px;
-    background-color: #a4161a;
+    background-color: aliceblue;
     border-radius: 20px;
     padding: 80px 100px 100px 100px !important;
     -webkit-border-radius: 20px;
@@ -272,7 +275,7 @@
 }
 .know-text h4{
     font-size: 30px;
-    color: #fff;
+    color: #000;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
     padding-bottom: 10px;
@@ -280,7 +283,7 @@
 }
 .know-text p{
     font-size: 16px;
-    color:gainsboro;
+    color:black;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
     text-align: center;
@@ -289,7 +292,7 @@
     padding-right: 150px;
 }
 .know-card{
-    background-color: #d3d3d3;
+    background-color: blanchedalmond;
     text-align: center;
     padding: 40px 20px;
     border-radius: 20px;
@@ -318,3 +321,72 @@
     text-transform: capitalize;
 }
 
+
+@media(max-width:575px){
+    #resume{
+        padding: 0 0 20px 0;
+    }
+    .header h3 {
+        font-size: 25px;
+        margin: 30px 0 50px 0;
+    }
+    .bio p {
+        font-size: 13px !important;
+    }
+    .rsm-img {
+        width: 100%;
+        border: 0px solid navy;
+    }
+    .rsm-btn a {
+        padding: 20px 25px;
+        font-size: 15px;
+    }
+    .tools h3 {
+        padding-top: 90px;
+    }
+    .c1 {
+        height: 100px;
+        width: 100px;
+    }
+    .c1 img {
+        left: 16px;
+        top: 18px;
+    }
+    .skill h4 {
+        padding-top: 50px;
+        padding-bottom: 40px;  
+    }
+    .journey {
+        margin-top: 60px;
+    }
+    .journey h4 {
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .jr-btn {
+        margin-top: 40px;
+    }
+    .wrk {
+        margin-top: 10px;
+    }
+    .wrk-1 p {
+        font-size: 13px;
+    }
+    .know {
+        margin-top: 50px;
+        padding: 60px 15px 60px 15px !important;    
+    }
+    .know-text h4 {
+        font-size: 25px;
+    }    
+    .know-text p {
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+    .know-card p{
+        font-size: 12px;
+    }
+
+}

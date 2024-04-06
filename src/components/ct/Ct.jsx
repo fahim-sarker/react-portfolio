@@ -57,7 +57,7 @@ const Ct = () => {
                         <div className="contact-msg">
                             <h6>message <FaStarOfLife /></h6>
                             <textarea type="text" placeholder='your message'></textarea>
-                            <button className='send'>send message</button>
+                            <a href="#">send message</a>
                         </div>
                     </Col>
                 </Row>
