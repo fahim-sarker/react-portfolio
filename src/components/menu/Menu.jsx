@@ -38,7 +38,7 @@ const Menu = () => {
                   <Link to="/">blog</Link>
                 </Nav>
                 <div className="nav-btn">
-                  <a className='ct' href="contact">contact</a>
+                  <Link className='ct' to="/contact">contact</Link>
                   </div>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

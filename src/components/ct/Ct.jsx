@@ -16,7 +16,7 @@ const Ct = () => {
                         <div className="ct-img">
                             <h3><i>personal info</i></h3>
                             <p><i><span>name:</span> fahim sarker</i></p>
-                            <p><i><span>email:</span><a href='mailto:sarkerfahim599@gmail.com'> sarkerfahim599@gmail.com</a></i></p>
+                            <p><i><span>email:</span><a href='mail to:sarkerfahim599@gmail.com'> sarkerfahim599@gmail.com</a></i></p>
                             <p><i><span>address:</span> dhaka,bangladesh</i></p>
                             <p><i><span>phone:</span> <a href='tel:+8801647389997'>01647389997</a></i></p>
                             <p><i><span>religion:</span> muslim</i></p>
