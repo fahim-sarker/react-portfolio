@@ -58,7 +58,7 @@ span{
     border: 2px solid navy !important;
     border-radius: 5px;
     padding: 10px 30px !important;
-    color: #000;
+    color: #000 !important;
     font-size: 20px;
     font-family: "Poppins", sans-serif !important;
     -webkit-border-radius: 5px;
@@ -72,8 +72,8 @@ span{
     -o-transition: 0.5s;
 }
 .nav-btn .ct:hover{
-    background-color: navy;
-    color: #fff;
+    background-color: navy !important;
+    color: #fff !important;
     color: whitesmoke;
 }
 

@@ -49,6 +49,9 @@
     color: aliceblue !important;
     background-color: #094752;
 }
+a {
+    color: #fff !important;
+}
 .hire{
     color: #fff !important;
     font-size: 20px;

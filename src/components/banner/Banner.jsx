@@ -9,6 +9,7 @@ import P2 from "../../assets/two.png"
 import P3 from "../../assets/three.png"
 import P5 from "../../assets/five.png"
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (
@@ -31,8 +32,8 @@ const Banner = () => {
       repeat={Infinity}
     />
               <p>Lorem ipsum dolor sit amet consectetur. pulvinar sapien duis sapien aliquam dictumst justo nunc. faucibus quis aenean molestie vel lacus cursus egestas senectus nisl.</p>
-              <a className='dow' href="#">download cv <FaDownload /></a>
-              <a className='hire' href="#"> hire me <FaArrowTrendUp /></a>
+              <a className='dow' href="../../assets/Fahim CV.pdf" download="Fahim CV.pdf">download cv <FaDownload /></a>
+              <a className='hire' href="#"><Link to="/contact">hire me </Link><FaArrowTrendUp /></a>
             </div>
           </Col>
           <Col lg={{span:5, offset:1}}>

@@ -44,7 +44,7 @@ const Resume = () => {
                             <div className="icn">
                                 <CiMail />
                             </div>
-                            <h3>biography</h3>
+                            <h3>Dedication</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. lorem Ipsum.</p>
                             <a href="#">learn more <MdArrowOutward /></a>
                             <div className="btm"></div>
@@ -53,7 +53,7 @@ const Resume = () => {
                             <div className="icn">
                                 <CiMail />
                             </div>
-                            <h3>biography</h3>
+                            <h3>Creativity</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. lorem Ipsum.</p>
                             <a href="#">learn more <MdArrowOutward /></a>
                             <div className="btm"></div>
@@ -69,7 +69,7 @@ const Resume = () => {
                             <div className="icn">
                                 <CiMail />
                             </div>
-                            <h3>biography</h3>
+                            <h3>Hard Work</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. lorem Ipsum.</p>
                             <a href="#">learn more <MdArrowOutward /></a>
                             <div className="btm"></div>
@@ -78,7 +78,7 @@ const Resume = () => {
                             <div className="icn">
                                 <CiMail />
                             </div>
-                            <h3>biography</h3>
+                            <h3>Patience</h3>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. lorem Ipsum.</p>
                             <a href="#">learn more <MdArrowOutward /></a>
                             <div className="btm"></div>
@@ -222,8 +222,8 @@ const Resume = () => {
                                     </div>
                                     <div className="know-card">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, blanditiis ullam vel tenetur non corporis porro, velit inventore possimus aperiam veniam nam vero voluptate. Numquam, libero. Cumque iure iusto accusantium at, cupiditate officia facere rerum culpa vero, deleniti dicta beatae voluptatibus! Natus nulla quae aliquid architecto corporis molestiae nisi maxime!</p>
-                                        <h4>jullies chelavier</h4>
-                                        <h5>company owner</h5>
+                                        <h4>Razibur Rahman</h4>
+                                        <h5>Mentor</h5>
                                     </div>
                                 </Slider>
                         </div>

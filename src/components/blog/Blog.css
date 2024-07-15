@@ -2,6 +2,9 @@
     padding: 60px 0;
     background: url(../../assets/bannerbg.png);
 }
+.whdr{
+    margin-top: 50px;
+}
 .whdr h4{
     text-align: center;
     color: #000;
