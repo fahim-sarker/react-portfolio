@@ -8,6 +8,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
 import { FaArrowTrendUp } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 const Ftr = () => {
     return (
@@ -31,8 +32,8 @@ const Ftr = () => {
                     </Col>
                     <Col lg={{span:4,offset:1}}>
                         <div className="ftr-btn">
-                            <a className='down' href="#">download cv <FaDownload /></a>
-                            <a className='hiree' href="#"> hire me <FaArrowTrendUp /></a>
+                            <a className='down'href="../../assets/Fahim CV.pdf" download="Fahim CV.pdf">download cv <FaDownload /></a>
+                            <Link className='hiree' to="/contact">hire me <FaArrowTrendUp /></Link>
                         </div>
                     </Col>
                 </Row>

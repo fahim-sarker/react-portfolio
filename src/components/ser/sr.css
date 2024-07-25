@@ -18,7 +18,7 @@
     line-height: 30px;
 }
 .sr-btn a{
-    color: #000;
+    color: #000 !important;
     font-size: 20px;
     font-family: "Poppins", sans-serif !important;
     text-transform: capitalize;
@@ -43,8 +43,8 @@
 .card{
     margin-bottom: 30px;
     border: 2px solid white !important;
-    background-color: #4f5458 !important;
-    box-shadow: 5px 5px black;
+    background-color: aliceblue !important;
+    box-shadow: 5px 5px yellowgreen;
     padding: 25px 20px !important;
     border-radius: 20px !important;
     -webkit-border-radius: 20px !important;
@@ -56,6 +56,7 @@
     -moz-transition: 0.5s;
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
+    height: 250px !important;
 }
 .card:hover{
     margin-top: 10px;
@@ -66,13 +67,14 @@
     padding-bottom: 10px;
 }
 .card h4{
-    color: white;
+    color: black;
     width: 45% !important;
     font-family: "Poppins", sans-serif !important;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 500;
 }
 .card p{
-    color: #fff;
+    color: black;
     font-family: "Poppins", sans-serif !important;
 }
 .card a{

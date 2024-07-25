@@ -14,6 +14,7 @@ import { FaDownload } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { Link } from 'react-router-dom';
 
 
 
@@ -25,11 +26,11 @@ const Resume = () => {
     var settings = {
         dots: true,
         autoplay: true,
-        infinite:true,
+        infinite: true,
         autoplaySpeed: 2000,
         slidesToShow: 1,
         slidesToScroll: 1,
-      };
+    };
     return (
         <div id='resume'>
             <Container>
@@ -86,7 +87,9 @@ const Resume = () => {
                     </Col>
                     <Col lg={12}>
                         <div className="rsm-btn">
-                            <a href="#">discover more about me <MdArrowOutward /></a>
+                            <Link to="/about">
+                                discover more about me <MdArrowOutward />
+                            </Link>
                         </div>
                     </Col>
                     <Col lg={6}>
@@ -165,7 +168,7 @@ const Resume = () => {
                     </Col>
                     <Col lg={{ span: 3, offset: 3, }}>
                         <div className="jr-btn">
-                            <a href="#">download cv <FaDownload /></a>
+                            <a href="../../assets/Fahim CV.pdf" download="Fahim CV.pdf">download cv <FaDownload /></a>
                         </div>
                     </Col>
                     <Col lg={4}>
@@ -215,17 +218,17 @@ const Resume = () => {
                                 <p>Lorem ipsum dolor sit amet consectetur. Ipsum tortor condimentum tellus sem ac at velit facilisi. Diam elit risus tortor vitae.</p>
                             </div>
                             <Slider {...settings}>
-                            <div className="know-card">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est optio omnis commodi excepturi autem, magnam culpa veniam ipsam porro libero consectetur cum quae tempora recusandae assumenda dolore quaerat veritatis tempore dolor dolorum eius. Quibusdam porro cumque suscipit architecto sint ullam, officia magnam fuga temporibus aliquam sed deserunt modi? Id, reprehenderit.</p>
-                                        <h4>richi topley</h4>
-                                        <h5>company owner</h5>
-                                    </div>
-                                    <div className="know-card">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, blanditiis ullam vel tenetur non corporis porro, velit inventore possimus aperiam veniam nam vero voluptate. Numquam, libero. Cumque iure iusto accusantium at, cupiditate officia facere rerum culpa vero, deleniti dicta beatae voluptatibus! Natus nulla quae aliquid architecto corporis molestiae nisi maxime!</p>
-                                        <h4>Razibur Rahman</h4>
-                                        <h5>Mentor</h5>
-                                    </div>
-                                </Slider>
+                                <div className="know-card">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est optio omnis commodi excepturi autem, magnam culpa veniam ipsam porro libero consectetur cum quae tempora recusandae assumenda dolore quaerat veritatis tempore dolor dolorum eius. Quibusdam porro cumque suscipit architecto sint ullam, officia magnam fuga temporibus aliquam sed deserunt modi? Id, reprehenderit.</p>
+                                    <h4>richi topley</h4>
+                                    <h5>company owner</h5>
+                                </div>
+                                <div className="know-card">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, blanditiis ullam vel tenetur non corporis porro, velit inventore possimus aperiam veniam nam vero voluptate. Numquam, libero. Cumque iure iusto accusantium at, cupiditate officia facere rerum culpa vero, deleniti dicta beatae voluptatibus! Natus nulla quae aliquid architecto corporis molestiae nisi maxime!</p>
+                                    <h4>Razibur Rahman</h4>
+                                    <h5>Mentor</h5>
+                                </div>
+                            </Slider>
                         </div>
                     </Col>
                 </Row>

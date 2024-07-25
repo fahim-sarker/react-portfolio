@@ -24,37 +24,50 @@ const Blog = () => {
                     <Col lg={6}>
                             <div className="tm-img">
                                 <img src={T2} alt="" />
-                                <a href="https://cerulean-seahorse-3730b2.netlify.app">view work <MdOutlineArrowOutward /></a>
+                                <p>travel agency website</p>
+                                <a href="https://cerulean-seahorse-3730b2.netlify.app">live site <MdOutlineArrowOutward /></a>
                             </div>
                     </Col>
                     <Col lg={6}>
                             <div className="tm-2-img">
                                 <img src={T1} alt="" />
-                                <a href="https://aquamarine-bublanina-e9df9d.netlify.app">view work<MdOutlineArrowOutward /></a>
+                                <p>finsweet website</p>
+                                <a href="https://aquamarine-bublanina-e9df9d.netlify.app">live site<MdOutlineArrowOutward /></a>
                             </div>
                     </Col>
                     <Col lg={6}>
                             <div className="tm-img">
                                 <img src={T3} alt="" />
-                                <a href="https://eloquent-nougat-0dca25.netlify.app">view work <MdOutlineArrowOutward /></a>
+                                <p>travel agency website</p>
+                                <a href="https://eloquent-nougat-0dca25.netlify.app">live site<MdOutlineArrowOutward /></a>
                             </div>
                     </Col>
                     <Col lg={6}>
                             <div className="tm-2-img">
                                 <img src={T4} alt="" />
-                                <a href="https://phenomenal-twilight-ce72ba.netlify.app">view work <MdOutlineArrowOutward /></a>
+                                <p>event management website</p>
+                                <a href="https://phenomenal-twilight-ce72ba.netlify.app">live site<MdOutlineArrowOutward /></a>
                             </div>
                     </Col>
                     <Col lg={6}>
                             <div className="tm-img">
                                 <img src={T5} alt="" />
-                                <a href="#">view work <MdOutlineArrowOutward /></a>
+                                <p>aeropage website</p>
+                                <a href="#">live site<MdOutlineArrowOutward /></a>
                             </div>
                     </Col>
                     <Col lg={6}>
                             <div className="tm-img">
                                 <img src={T6} alt="" />
-                                <a href="#">view work<MdOutlineArrowOutward /></a>
+                                <p>newspro website</p>
+                                <a href="#">live site<MdOutlineArrowOutward /></a>
+                            </div>
+                    </Col>
+                    <Col lg={6}>
+                            <div className="tm-img">
+                                <img src={T6} alt="" />
+                                <p>newspro website</p>
+                                <a href="#">live site<MdOutlineArrowOutward /></a>
                             </div>
                     </Col>
                 </Row>
